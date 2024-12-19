@@ -4,7 +4,7 @@ import pickle
 app = Flask(__name__)
 
 # Loading trained machine learning model
-model = pickle.load(open('P:/Documents(p)/Web_Development/HTML_CODE/Calories_Burnt/calories_model.pkl', 'rb'))
+model = pickle.load(open('calories_model.pkl', 'rb'))
 
 @app.route('/')
 def index():
