@@ -81,7 +81,7 @@ input, select:focus{
 
 .button-container {
     display: flex;
-    justify-content: end;
+    justify-content: center;
     margin: 20px 0;
 }
 
