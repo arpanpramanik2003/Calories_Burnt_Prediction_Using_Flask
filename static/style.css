@@ -124,4 +124,12 @@ button:hover {
     color: #555;
 }
 
+@media screen and (max-width: 600px) {
+    .button-container {
+        justify-content: center;
+        margin-right: 0px;
+        margin-top: 20px;
+    }
+}
+
 
